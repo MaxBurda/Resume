@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic-ext,cyrillic);
+h1, h2, h3, h4, h5, h6, p, a{
+    font-family: 'Open Sans', sans-serif;}
+a {
+  color: #999;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #333;
+  text-decoration: none;
+}
+
+a.spoiler:after {
+    content: " [-]";
+}
+
+a.spoiler.collapsed:after {
+    content: " [+]";
+}
+.nav-tabs {
+	margin-bottom: 15px;
+}
+
+
+@media screen and (max-width: 767px) {
+	.masonry[data-columns]::before {
+		content: '1 .col-xs-12';
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.masonry[data-columns]::before {
+		content: '2 .col-xs-6';
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.masonry[data-columns]::before {
+		content: '2 .col-xs-6';
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.masonry[data-columns]::before {
+		content: '2 .col-xs-6';
+	}
+}
+
+
+.vcenter {
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+}
+.head{
+   padding-left: 5px;
+   margin-right: 5px;
+}
+.contacts{
+    margin-top: 20px;
+}
+.skill{ 
+    padding-left: 5px;
+}
+.number{
+    float: left;
+    color: #777;
+    font-size: 48px;
+    margin-top: -15px;
+    margin-right: 20px;
+    margin-left: 15px;   
+}
+.row{
+    margin-top: 5px;
+}
+.dop{
+    font-size: 15px;
+    color: #999;
+}
+.hobbi{
+    width: 16%;
+    margin: 1.3%;
+  
+}
